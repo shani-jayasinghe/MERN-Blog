@@ -50,11 +50,9 @@ export default function SignUp() {
           </Link>
           
           <p className='text-sm mt-5 text-slate-400'>
-          You can SignUp with your E-mail and password or with Google.
+          You can SignUp with your UserName, E-mail and password or with Google.
           If you're alrady use the system, please [Sign In] to join 
-          our community of thinkers, writers, and innovators. 
-          Together, we can inspire, inform, and make a 
-          difference. Happy blogging..!          
+          our community. Happy blogging..!           
           </p>
         </div>
         
