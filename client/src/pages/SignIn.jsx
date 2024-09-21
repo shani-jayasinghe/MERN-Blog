@@ -3,6 +3,7 @@ import  { useState } from 'react'
 import { Link, useNavigate} from 'react-router-dom'
 import { SignInStart, SignInSuccess, SignInFailure } from '../redux/user/userSlice';
 import { useDispatch, useSelector} from 'react-redux';
+import OAuth from '../component/OAuth';
 
 
 export default function SignIn() {
@@ -81,6 +82,7 @@ export default function SignIn() {
                 'Sign In'
               )} 
               </Button>
+              <OAuth />
           </form>
 
           <div className='flex gap-3 text-sm mt-5'>
