@@ -34,7 +34,7 @@ export default function SignIn() {
       
       if(res.ok) {
         dispatch(SignInSuccess(data));
-        navigate('/');
+        navigate('/DashBoard');
       }
     } catch (error) {
       dispatch(SignInFailure(error.message));
@@ -82,7 +82,7 @@ export default function SignIn() {
                 'Sign In'
               )} 
               </Button>
-              <OAuth />
+              
           </form>
 
           <div className='flex gap-3 text-sm mt-5'>
