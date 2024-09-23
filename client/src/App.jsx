@@ -4,6 +4,9 @@ import About from './pages/About'
 import SignIn from './pages/SignIn'
 import SignUp from './pages/SignUp'
 import Heder from './component/Heder'
+import DashBoard from './pages/DashBoard'
+import CreatePost from './pages/CreatePost'
+
 
 export default function App() {
   return (
@@ -14,6 +17,9 @@ export default function App() {
       <Route path='/About' element={<About />}/>
       <Route path='/SignIn' element={<SignIn />}/>
       <Route path='/SignUp' element={<SignUp />}/>
+      <Route path='/DashBoard' element={<DashBoard />}/>
+      <Route path='/CreatePost' element={<CreatePost />}/>     
+
     </Routes>
     </BrowserRouter>
   )
