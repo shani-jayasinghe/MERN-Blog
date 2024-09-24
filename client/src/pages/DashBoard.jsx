@@ -8,7 +8,7 @@ export default function DashBoard() {
     <div className="flex items-center">
       {/* Left Message Section */}
       <div className="bg-[#c5c2c7]  px-10  py-14 rounded-lg text-center">
-        <h1 className="text-3xl font-bold mb-4 text-slate-800">Your LogIn Successfully..!</h1>
+        <h1 className="text-3xl font-bold mb-4 text-blue-700"> LogIn Successfully..!</h1>
         
         {/* Image Section */}
         <div className="flex justify-center items-center mb-4 ml-20">
